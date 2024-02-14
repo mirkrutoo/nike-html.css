@@ -1,0 +1,82 @@
+@import url(fonts.css);
+
+.footer {
+    background: #322E41;
+    padding: 31px 0 67px 0;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.footer-left__input {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+}
+
+.footer-left__input input {
+    color: #9B9B9B;
+    font-family: 'RR';
+    font-size: 18px;
+    line-height: 18px;
+    padding: 8px 190px 8px 8px;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+.footer-left__input textarea {
+    margin-top: 10px;
+    margin-bottom: 7px;
+    color: #9B9B9B;
+    font-family: 'RR';
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 6px;
+    background: #FFF;
+    padding: 8px 0 60px 8px;
+    resize: none;
+    
+}
+
+.footer-left__btn {
+    color: #FFF;
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 18px;
+    border-radius: 6px;
+    text-align: center;
+    background: #544294;
+    padding-top: 7px;
+    padding-bottom: 1px;
+
+}
+
+.footer-box__right {
+    display: flex;
+}
+
+.footer-right__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-right__link {
+    color: #FFF;
+    font-family: 'RR';
+    font-size: 16px;
+    transition: all 500ms;
+}
+
+.footer-right__link:hover{
+    color: #D47300;
+
+}
+.footer-right__link:first-of-type {
+    margin-right: 77px;
+}

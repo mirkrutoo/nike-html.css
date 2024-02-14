@@ -1,0 +1,130 @@
+@import url(fonts.css);
+
+.nav__navbar {
+    background: rgb(50, 46, 65);
+}
+
+.nav__link {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav__link:hover {
+    background-color: rgb(213, 115, 0);
+}
+
+.header-content {
+    background: url(../images/nike.jpg) no-repeat center/cover;
+    height: 500px;
+}
+
+.header-content__title {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0%;
+    margin-top: 167px;
+}
+
+.header-content__text {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+}
+
+.main {
+    background: rgb(229, 229, 229);
+}
+
+.nike {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.info-left {
+    position: absolute;
+    top: 523px;
+    max-width: 540px;
+    width: 100%;
+    height: 467 border-radius: 6px;
+    background: rgb(255, 255, 255);
+}
+
+.info-left__img {
+    margin: 15px 15px 20px 15px;
+}
+
+.info-left__title {
+    color: rgb(44, 42, 42);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 0 10px 15px;
+}
+
+.info-left__text {
+    color: rgb(155, 155, 155);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 15px 15px;
+}
+.info-right{
+  position: absolute;
+  top: 0px;
+}
+.info-right__item {
+    max-width: 255px;
+    width: 100%;
+    height: 218px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}
+
+.info-item__img {
+    margin: 12px 0 12px 0;
+}
+
+.info-item__title {
+    color: rgb(44, 42, 42);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 6px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 0 12px 0;
+}
+
+.info-item__text {
+    color: rgb(155, 155, 155);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+
+    
+    margin: 10px;
+}

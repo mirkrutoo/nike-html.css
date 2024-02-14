@@ -1,0 +1,94 @@
+@import url(fonts.css);
+
+.main {
+    padding-bottom: 38px;
+    background: #EBEBEB;
+
+}
+
+.nike {
+    transform: translateY(-40px);
+}
+
+
+
+
+.nike-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nike-left {
+    max-width: 540px;
+    width: 100%;
+    background: white;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.nike-left__title {
+    color: #2C2A2A;
+    font-family: RB;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.nike-left__text {
+    color: #9B9B9B;
+    font-family: RR;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 540px;
+    width: 100%;
+}
+
+.nike-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 540px;
+    width: 100%;
+}
+
+.nike-right__item {
+    max-width: 255px;
+    width: 100%;
+    background: white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.nike-right__dic {
+    margin-bottom: 30px;
+}
+
+.nike-right__title {
+    color: #2C2A2A;
+    text-align: center;
+    font-family: 'RR';
+    font-size: 22px;
+    line-height: 16px;
+    transition: all 500ms;
+    margin: 12px 0;
+}
+
+.nike-right__title:hover {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.nike-right__text {
+    color: #9B9B9B;
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 16px;
+    max-width: 224px;
+    width: 100%;
+}
